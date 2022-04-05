@@ -25,7 +25,7 @@ jobs:
 
           # Optional: golangci-lint command line arguments.
           args: >-
-            --go=1.18
+            --go=1.17.7
             --skip-dirs=admiral/pkg/client/clientset/versioned
             --tests=false
             --timeout=5m
