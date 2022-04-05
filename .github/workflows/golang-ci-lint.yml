@@ -6,6 +6,7 @@ on:
     branches:
       - master
       - main
+      - go*
   pull_request:
 jobs:
   golangci:
